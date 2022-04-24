@@ -1,0 +1,25 @@
+{
+  "name": "FOSWVS COINS.PH AUTHENTICATOR",
+  "description": "FOSWVS COINS.PH AUTHENTICATOR",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "wifi_16.png",
+      "32": "wifi_32.png",
+      "64": "wifi_64.png",
+      "128": "wifi_128.png"
+    }
+  },
+  "icons": {
+    "16": "wifi_16.png",
+    "32": "wifi_32.png",
+    "64": "wifi_64.png",
+    "128": "wifi_128.png"
+  }
+}
